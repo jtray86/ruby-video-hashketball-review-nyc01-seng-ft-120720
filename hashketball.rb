@@ -164,8 +164,7 @@ end
 
 def player_number (team_name)
   team(team_name)[:players].map{|key, value| value[:number]}
-    
-  end  
-    
   
 end  
+
+
