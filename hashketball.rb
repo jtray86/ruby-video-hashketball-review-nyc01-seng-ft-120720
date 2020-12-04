@@ -132,6 +132,7 @@ def players
     team_info[:players].each do |stats|
      if stats[:player_name] == player
      end
+   end
 end  
 
 def team (team_name)
