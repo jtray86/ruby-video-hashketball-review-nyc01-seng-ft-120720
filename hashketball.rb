@@ -128,7 +128,9 @@ def game_hash
 end
 
 def players
- game_hash[:home][:players].merge(game_hash[:away][:players])
+ game_hash.each do |key, team_info| 
+    team_info[:players].each do |stats|
+     if stats[:player_name] == player
 end  
 
 def team (team_name)
