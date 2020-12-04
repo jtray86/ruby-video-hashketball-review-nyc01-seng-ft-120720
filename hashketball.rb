@@ -128,7 +128,13 @@ def game_hash
 end
 
 def players
-
+  game_hash.each do |key, team_info| 
+    team_info[:players].each do |stats|
+     if stats[:player_name] == player
+     
+      end
+    end
+  end
 end  
 
 def team (team_name)
