@@ -128,11 +128,7 @@ def game_hash
 end
 
 def players
- game_hash.each do |key, team_info| 
-    team_info[:players].each do |stats|
-     if stats[:player_name] == player
-     end
-   end
+ game_hash[:home][:team_name]
 end  
 
 def team (team_name)
