@@ -131,7 +131,7 @@ def players
  game_hash[:home][:players].merge(game_hash[:away][:players])
 end  
 
-def team
+def team (team_name)
   case team_name
     when game_hash[:home][:team_name]
      game_hash[:home]
