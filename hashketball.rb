@@ -166,6 +166,7 @@ end
 
 def big_shoe_rebounds
   largest_shoe = 0 
+  shoe_rebound = -1
   players(player_name)[:rebounds]>largest_shoe
   players(player_name)[:rebounds] = largest_shoe
   
