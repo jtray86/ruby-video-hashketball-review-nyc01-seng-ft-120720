@@ -164,6 +164,10 @@ def player_stats(player_name)
   players[player_name]
 end
 
-def big 
+def big_shoe_rebounds
+  largest_shoe = 0 
+  players(player_name)[:rebounds]>largest_shoe
+  players(player_name)[:rebounds] = largest_shoe
   
+  players[player_name][:shoe]
 end  
